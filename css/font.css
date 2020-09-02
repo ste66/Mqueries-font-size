@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    h1 {
+        color: rebeccapurple;
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (tablet and large phones, 600px and up) */
+@media (min-width: 601px) and (max-width: 767px) {
+    h1 {
+        color: cyan;
+        font-size: 2rem;
+    }
+}
+
+
+/* Medium devices (Landscape tablet, 768x and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        color: maroon;
+        font-size: 3rem;
+    }
+}
+
+/* Large devices (laptops and desktops, 992x and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        color: teal;
+        font-size: 4rem;
+    }
+}
+
+
+/* Extra large devices (Large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        color: yellow;
+        font-size: 5rem;
+    }
+}
+
